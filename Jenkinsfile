@@ -14,8 +14,7 @@ pipeline
 			{
 			steps
 				{
-				sh "java demo.java"
-				sh "python3 main.py"
+				zip karthi.zip main.py
 				}
 			}
 		}
