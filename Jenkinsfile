@@ -14,7 +14,7 @@ pipeline
 			{
 			steps
 				{
-				zip karthi.zip main.py
+				sh "zip karthi.zip main.py"
 				}
 			}
 		}
